@@ -1,0 +1,109 @@
+#header, #body{
+	margin: auto;
+
+}
+#header, #footer{
+	background: #755;
+}
+.wrap {
+
+	width: 100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	height: 100%;
+	background: #DAA099;
+	overflow: hidden;
+	margin-left:auto;
+	margin-right: auto;
+}
+.centered {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#header{
+	border-bottom: 5px solid black;
+	text-align: center;
+	height: 45px;
+	padding:0;
+	position: relative;
+
+}
+#nav{
+	float: left;
+	margin:0;
+	padding:0;
+	display: block;
+}
+#header ul{
+
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	overflow: hidden;
+}
+
+#header li{
+	padding:0;
+	float: left;
+	border-right: 1px solid black;
+}
+#header li a{
+	padding: 14px 16px;
+
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+#header h1{
+	margin: auto;
+	color: white;
+}
+
+#myname h1{
+}
+#myname{
+	position:absolute;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+	top: 50%;
+	margin:auto;
+	display: inline-block;
+}
+#rightbar{
+	float: right;
+}
+#rightbar li{
+	display: block;
+	padding:0
+}
+
+#body{
+
+	background : #660010;
+	margin: auto;
+	width:60%;
+	height : 100%;
+	padding: 10px;
+	padding-right: 20px;
+}
+
+
+#content h3{
+	margin-top:0;
+}
+#footer{
+	clear:both;
+	position:absolute;
+	text-align:center;
+	bottom:0;
+	width:100%;
+	max-height: 50px;
+	border-top: 2px solid black;
+}
+body{
+	background :#CCC;
+	margin: 0;
+	padding:0;
+}
